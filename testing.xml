@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" verbose="1" thread-count="3" parallel="tests">
+    <test name="Registration" parallel="tests">
+        <classes>
+            <class name="Registration.FirstTest1"/>
+            <class name="Registration.FirstTest2"/>
+        </classes>
+    </test>
+
+    <test name="Cart Checker" parallel="tests">
+        <classes>
+            <class name="CartCheck.SecondTest1"/>
+            <class name="CartCheck.SecondTest2"/>
+        </classes>
+
+    </test>
+</suite>
